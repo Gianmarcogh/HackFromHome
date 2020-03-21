@@ -4,33 +4,44 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
-    public float velocidad = 15F;
-    public float salto = 30F;
+    public float velocidad = 15f;
+    public float salto = 1.0f;
+
+    private Vector2 velocity;
+
+    
     // Start is called before the first frame update
     void Start()
     {
-    
+       
+    }
+
+    private void Awake()
+    {
+       
     }
 
     // Update is called once per frame
     void Update()
     {
-        var movimiento = 0F;
-        var salto = 0F;
+        velocity = GetComponent<Rigidbody2D>().velocity;
+
         if (Input.GetKey("d"))
         {
-            movimiento = velocidad * Time.deltaTime;
+            velocity.x = velocidad ;
+            
         }
+
         if (Input.GetKey("a"))
         {
-            movimiento = -velocidad * Time.deltaTime;
+            velocity.x = -velocidad ;
         }
 
         if (Input.GetKey("w"))
         {
-            salto = salto * Time.deltaTime;
+            velocity.y = salto;
         }
 
-        gameObject.transform.Translate(movimiento, salto,0);
+        gameObject.transform.Translate(velocity * Time.deltaTime);
     }
 }
