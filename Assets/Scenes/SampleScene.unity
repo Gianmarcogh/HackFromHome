@@ -324,6 +324,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Coche
       objectReference: {fileID: 0}
+    - target: {fileID: 663974019057713052, guid: 0c029d553956a934dbfb5080c8733198,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 663974019057713054, guid: 0c029d553956a934dbfb5080c8733198,
         type: 3}
       propertyPath: m_ShapeTexture
@@ -348,6 +353,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Color.b
       value: 0.049928807
+      objectReference: {fileID: 0}
+    - target: {fileID: 663974019057713054, guid: 0c029d553956a934dbfb5080c8733198,
+        type: 3}
+      propertyPath: m_SortingLayerID
+      value: -1340130781
+      objectReference: {fileID: 0}
+    - target: {fileID: 663974019057713054, guid: 0c029d553956a934dbfb5080c8733198,
+        type: 3}
+      propertyPath: m_SortingLayer
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 663974019057713055, guid: 0c029d553956a934dbfb5080c8733198,
         type: 3}
@@ -423,6 +438,11 @@ PrefabInstance:
         type: 3}
       propertyPath: velocidad
       value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6401441059893669477, guid: 0c029d553956a934dbfb5080c8733198,
+        type: 3}
+      propertyPath: salto
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0c029d553956a934dbfb5080c8733198, type: 3}
@@ -502,6 +522,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7439752435836582490, guid: 831c6088a01a2f245945064353c66a91,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 831c6088a01a2f245945064353c66a91, type: 3}
