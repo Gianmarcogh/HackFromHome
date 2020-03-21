@@ -442,7 +442,7 @@ PrefabInstance:
     - target: {fileID: 6401441059893669477, guid: 0c029d553956a934dbfb5080c8733198,
         type: 3}
       propertyPath: salto
-      value: 1
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0c029d553956a934dbfb5080c8733198, type: 3}
