@@ -5,6 +5,7 @@ using UnityEngine;
 public class PlayerController : MonoBehaviour
 {
     public float velocidad = 15F;
+    public float salto = 30F;
     // Start is called before the first frame update
     void Start()
     {
@@ -14,19 +15,22 @@ public class PlayerController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        //var 
-        //if (Input.GetKey("d"))
-        //{
-            
-        //}
-        //if (Input.getKey("a")){
+        var movimiento = 0F;
+        var salto = 0F;
+        if (Input.GetKey("d"))
+        {
+            movimiento = velocidad * Time.deltaTime;
+        }
+        if (Input.GetKey("a"))
+        {
+            movimiento = -velocidad * Time.deltaTime;
+        }
 
-        //}
+        if (Input.GetKey("w"))
+        {
+            salto = salto * Time.deltaTime;
+        }
 
-        //if (Input.getKey("space")){
-
-        //        }
-
-        gameObject.transform.Translate(velocidad * Time.deltaTime,0,0);
+        gameObject.transform.Translate(movimiento, salto,0);
     }
 }
