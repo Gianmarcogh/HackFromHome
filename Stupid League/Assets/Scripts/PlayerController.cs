@@ -4,16 +4,29 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
-    public float velocidad = 0.1F;
+    public float velocidad = 15F;
     // Start is called before the first frame update
     void Start()
     {
-        
+    
     }
 
     // Update is called once per frame
     void Update()
     {
-        gameObject.GetComponent<Transform>().position = new Vector3(gameObject.transform.position.x + velocidad, 0, 0);   
+        //var 
+        //if (Input.GetKey("d"))
+        //{
+            
+        //}
+        //if (Input.getKey("a")){
+
+        //}
+
+        //if (Input.getKey("space")){
+
+        //        }
+
+        gameObject.transform.Translate(velocidad * Time.deltaTime,0,0);
     }
 }
