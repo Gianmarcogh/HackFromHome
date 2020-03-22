@@ -9,10 +9,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 663974019057713055}
-  - component: {fileID: 663974019057713052}
   - component: {fileID: 663974019057713053}
   - component: {fileID: 6401441059893669477}
   - component: {fileID: 312783013}
+  - component: {fileID: 8594788478568149983}
   m_Layer: 0
   m_Name: Coche
   m_TagString: Untagged
@@ -34,32 +34,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!61 &663974019057713052
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 663974019057713040}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0.017064571, y: -0.06628056}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 2.81, y: 1.08}
-    newSize: {x: 2.81, y: 1.08}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 2.566597, y: 0.9510573}
-  m_EdgeRadius: 0
 --- !u!50 &663974019057713053
 Rigidbody2D:
   serializedVersion: 4
@@ -145,3 +119,66 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!60 &8594788478568149983
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 663974019057713040}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 2.81, y: 1.08}
+    newSize: {x: 2.81, y: 1.08}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: 0.48499998, y: -0.41}
+      - {x: 0.575, y: -0.39}
+      - {x: 0.585, y: -0.44}
+      - {x: 0.74165183, y: -0.39004445}
+      - {x: 0.825, y: -0.53}
+      - {x: 0.885, y: -0.48999998}
+      - {x: 0.95610213, y: -0.5022022}
+      - {x: 1.0027525, y: -0.47330368}
+      - {x: 1.2149999, y: -0.38}
+      - {x: 1.265, y: -0.32999998}
+      - {x: 1.295, y: -0.26}
+      - {x: 1.295, y: -0.099999994}
+      - {x: 1.1883482, y: 0.04224705}
+      - {x: 1.0872474, y: 0.091145635}
+      - {x: 0.91389924, y: 0.13114588}
+      - {x: 0.5072474, y: 0.18008924}
+      - {x: 0.005, y: 0.45999998}
+      - {x: -0.015, y: 0.44}
+      - {x: -0.095, y: 0.42999998}
+      - {x: -0.2294489, y: 0.4222023}
+      - {x: -0.36499998, y: 0.43995547}
+      - {x: -0.6294044, y: 0.42325896}
+      - {x: -0.695, y: 0.17999999}
+      - {x: -0.82385427, y: 0.27995527}
+      - {x: -0.965, y: 0.14}
+      - {x: -0.995, y: 0.11}
+      - {x: -1.1908919, y: 0.16070187}
+      - {x: -1.1949999, y: 0.08}
+      - {x: -1.285, y: -0.02}
+      - {x: -1.285, y: -0.28}
+      - {x: -1.255, y: -0.35}
+      - {x: -1.2538538, y: -0.3811457}
+      - {x: -0.9650445, y: -0.3866963}
+      - {x: -0.8961462, y: -0.49334812}
+      - {x: -0.805, y: -0.53999996}
+      - {x: -0.775, y: -0.53}
+      - {x: -0.72499996, y: -0.47}
+      - {x: -0.655, y: -0.41}
